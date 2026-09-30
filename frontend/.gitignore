@@ -1,0 +1,14 @@
+# Node modules & build outputs
+node_modules/
+dist/
+build/
+coverage/
+logs/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log

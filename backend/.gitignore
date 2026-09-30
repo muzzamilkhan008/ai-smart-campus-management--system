@@ -1,0 +1,20 @@
+# Node modules & build outputs
+node_modules/
+dist/
+build/
+coverage/
+logs/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# SQLite database files
+*.db
+*.db-journal
+dev.db
+
+# Logs
+*.log
+npm-debug.log*
